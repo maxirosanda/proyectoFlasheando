@@ -1,0 +1,37 @@
+$Primary:#a4ce3a;
+$secundary:#83ac1b;
+@import "header";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-primary{
+    background-color:$Primary !important ;
+}
+
+
+.mensaje{
+    h2{
+        text-align: center;
+        padding: 25px
+    }
+    p{
+        padding: 0px 25px;
+    }
+}
+
+.galeria{
+    img{
+        padding: 20px;
+    }
+    .galeria__texto{
+       h2{
+        padding: 10px;
+        text-align: center;
+       } 
+    }
+}
+
+

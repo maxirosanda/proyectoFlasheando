@@ -27,6 +27,7 @@ $secundary:#83ac1b;
 
 .galeria{
     .galeria__img{
+        overflow: hidden;
        width: 670px;
        img {
             padding: 20px;
@@ -35,6 +36,7 @@ $secundary:#83ac1b;
        
     }
     .galeria__texto{
+        overflow: hidden;
        h2{
         padding: 10px;
         text-align: center;

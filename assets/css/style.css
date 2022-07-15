@@ -1,19 +1,24 @@
+@charset "UTF-8";
 .header {
   position: relative;
 }
+
 .header img {
   padding: 0px;
 }
+
 .header .header__contenido {
   position: absolute;
   top: 50%;
   text-align: center;
   color: white;
 }
+
 .header .header__contenido h2 {
   font-size: 20px;
   font-weight: 600;
 }
+
 .header .header__contenido button {
   padding: 5px 15px;
   border: 0;
@@ -22,6 +27,7 @@
   color: white;
   background-color: #a4ce3a;
 }
+
 .header .header__contenido button:hover {
   background-color: #83ac1b;
 }
@@ -38,6 +44,7 @@
     border-radius: 8px;
   }
 }
+
 @media (min-width: 768px) {
   .header .header__contenido h2 {
     width: 900px;
@@ -52,6 +59,49 @@
     border-radius: 8px;
   }
 }
+
+.cards {
+  padding: 10px;
+}
+
+.card {
+  width: 250px;
+  border: 0.5px solid rgba(3, 3, 3, 0.651);
+  padding: 10px;
+  margin: 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3 {
+  margin-top: 15px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.card h4 {
+  text-align: center;
+  font-size: 16px;
+}
+
+.card .añadirCarrro .fa-heart {
+  margin: 10px;
+}
+
+.card .añadirCarrro button {
+  border: 0;
+  background-color: #504e4e;
+  border-radius: 5px;
+  width: 170px;
+}
+
+.card .añadirCarrro button:hover {
+  background-color: #a4ce3a;
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -70,6 +120,7 @@
   text-align: center;
   padding: 25px;
 }
+
 .mensaje p {
   padding: 0px 25px;
 }
@@ -77,11 +128,14 @@
 .galeria .galeria__img {
   width: 670px;
 }
+
 .galeria .galeria__img img {
   padding: 20px;
   border-radius: 35px;
 }
+
 .galeria .galeria__texto h2 {
   padding: 10px;
   text-align: center;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */

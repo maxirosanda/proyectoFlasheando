@@ -10,7 +10,9 @@ $secundary:#83ac1b;
 .bg-primary{
     background-color:$Primary !important ;
 }
-
+.nav-item{
+    font-size: 24px;
+}
 
 .mensaje{
     h2{
@@ -23,8 +25,13 @@ $secundary:#83ac1b;
 }
 
 .galeria{
-    img{
-        padding: 20px;
+    .galeria__img{
+       width: 670px;
+       img {
+            padding: 20px;
+            border-radius: 35px;
+        }
+       
     }
     .galeria__texto{
        h2{

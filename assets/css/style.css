@@ -125,6 +125,10 @@
   padding: 0px 25px;
 }
 
+.galeria {
+  overflow: hidden;
+}
+
 .galeria .galeria__img {
   width: 670px;
 }

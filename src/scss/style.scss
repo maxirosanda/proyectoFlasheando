@@ -1,49 +1,11 @@
 $Primary:#a4ce3a;
 $secundary:#83ac1b;
+@import "config";
 @import "header";
+@import "inicio";
 @import "productos";
 @import "footer";
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.bg-primary{
-    background-color:$Primary !important ;
-}
-.nav-item{
-    font-size: 24px;
-}
 
-.mensaje{
-    h2{
-        text-align: center;
-        padding: 25px
-    }
-    p{
-        padding: 0px 25px;
-    }
-}
-
-.galeria{
-    overflow: hidden;
-    .galeria__img{
-    
-       width: 670px;
-       img {
-            padding: 20px;
-            border-radius: 35px;
-        }
-       
-    }
-    .galeria__texto{
-        
-       h2{
-        padding: 10px;
-        text-align: center;
-       } 
-    }
-}
 
 
 
